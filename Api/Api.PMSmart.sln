@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.PMSmart", "Api.PMSmart\Api.PMSmart.csproj", "{ABF912F2-D41C-4E56-B232-96530559CA8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.PMSmart.Tests", "Api.PMSmart.Tests\Api.PMSmart.Tests.csproj", "{6715B8E1-AF4E-40A2-8660-6897F1A60E67}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PMSmartWebsite", "..\PMSmartWebsite\", "{6D70D6F5-8A60-453E-8A94-697CB7CA8187}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/PMSmartWebsite"
+		Debug.AspNetCompiler.PhysicalPath = "..\PMSmartWebsite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\PMSmartWebsite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/PMSmartWebsite"
+		Release.AspNetCompiler.PhysicalPath = "..\PMSmartWebsite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\PMSmartWebsite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57905"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{ABF912F2-D41C-4E56-B232-96530559CA8C} = {ABF912F2-D41C-4E56-B232-96530559CA8C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABF912F2-D41C-4E56-B232-96530559CA8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF912F2-D41C-4E56-B232-96530559CA8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF912F2-D41C-4E56-B232-96530559CA8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF912F2-D41C-4E56-B232-96530559CA8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6715B8E1-AF4E-40A2-8660-6897F1A60E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6715B8E1-AF4E-40A2-8660-6897F1A60E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6715B8E1-AF4E-40A2-8660-6897F1A60E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6715B8E1-AF4E-40A2-8660-6897F1A60E67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D70D6F5-8A60-453E-8A94-697CB7CA8187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D70D6F5-8A60-453E-8A94-697CB7CA8187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D70D6F5-8A60-453E-8A94-697CB7CA8187}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D70D6F5-8A60-453E-8A94-697CB7CA8187}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

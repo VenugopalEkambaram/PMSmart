@@ -1,0 +1,11 @@
+<table class="table table-condensed table-hover">
+    <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Description{{$ctrl.projects[0].Name}}</th>
+        <tr ng-repeat="p in $ctrl.projects">
+            <td>{{p.projectId}}</td>
+            <td>{{p.name}}</td>
+            <td>{{p.description}}</td>
+        </tr>
+</table>

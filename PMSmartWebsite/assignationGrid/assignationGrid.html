@@ -1,0 +1,18 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">Assignation</div>
+    <table class="table table-condensed table-hover">
+        <tr>
+            <th>#</th>
+            <th>Project Name</th>
+            <th>Contacts</th>
+        </tr>
+        <tr ng-repeat="a in $ctrl.assignationDetails">
+            <td>{{a.projectId}}</td>
+            <td>{{a.name}}</td>
+            <td>
+                <li ng-repeat="c in a.contacts">{{c.firstName}}, {{c.lastName}}</li>
+                <assign-contact project-id='a.projectId' on-save="$ctrl.assignContact()"></assign-contact>
+            </td>
+        </tr>
+    </table>
+</div>

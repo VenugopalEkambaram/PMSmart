@@ -1,0 +1,4 @@
+<button ng-if="!$ctrl.addMode" class="btn btn-link" type="button" data-ng-click="$ctrl.setMode()">Assign Contact</button>
+<div ng-if="$ctrl.addMode">Select Contact:
+    <select data-ng-options="c as c.firstName for c in $ctrl.contactsForAssignation" data-ng-model="$ctrl.contact" ng-change="$ctrl.resetMode()"></select>
+</div>

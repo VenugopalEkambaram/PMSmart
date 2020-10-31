@@ -1,0 +1,9 @@
+<form class="form-inline"><button class="btn-primary" type="button" data-ng-click="$ctrl.changeMode(true)">Add {{::$ctrl.title}}</button>
+    <add-project ng-if="$ctrl.addMode && $ctrl.title == 'Projects'" on-save="$ctrl.changeMode(false)"></add-project>
+    <add-contact ng-if="$ctrl.addMode && $ctrl.title == 'Contacts'" on-save="$ctrl.changeMode(false)"></add-contact>
+</form>
+<div class="panel panel-primary">
+    <div class="panel-heading">{{::$ctrl.title}}</div>
+    <project-grid ng-if="$ctrl.title == 'Projects'"></project-grid>
+    <contact-grid ng-if="$ctrl.title == 'Contacts'"></contact-grid>
+</div>
