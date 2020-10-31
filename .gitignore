@@ -348,3 +348,12 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/Api/Api.PMSmart/_bin_deployableAssemblies/amd64/Microsoft.VC90.CRT/Microsoft.VC90.CRT.manifest
+/Api/Api.PMSmart/_bin_deployableAssemblies/amd64/Microsoft.VC90.CRT/msvcr90.dll
+/Api/Api.PMSmart/_bin_deployableAssemblies/amd64/Microsoft.VC90.CRT/README_ENU.txt
+/Api/Api.PMSmart/_bin_deployableAssemblies/amd64/sqlceca40.dll
+/Api/Api.PMSmart/_bin_deployableAssemblies/amd64/sqlcecompact40.dll
+/Api/Api.PMSmart/_bin_deployableAssemblies/amd64/sqlceer40EN.dll
+/Api/Api.PMSmart/_bin_deployableAssemblies/amd64/sqlceme40.dll
+/Api/Api.PMSmart/_bin_deployableAssemblies/amd64/sqlceqp40.dll
+/Api/Api.PMSmart/_bin_deployableAssemblies/amd64/sqlcese40.dll
